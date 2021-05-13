@@ -32,43 +32,9 @@
 /* Screen Queries */
 
 @media (orientation: landscape) {
-    .App {
-        
-    }
-    
-    .coming-soon {
-        font-size: 3vw;
-    }
 
-    .background {
-        width: 100vw;
-        height: 100vh;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        background-color: aliceblue;
-        background-image: url(./public/bg-desktop.png);
-        background-position: center;
-        opacity: 0.2;
-        background-repeat: repeat;
-    }
 }
 
 @media (orientation: portrait) {
 
-    .background {
-        display: none;
-    }
-
-    .App {
-        background-image: url(./public/bg-mobile.png);
-        background-position: center;
-        background-repeat: repeat;
-    }
-
-    .coming-soon {
-        font-size: 4vh;
-    }
-    
 }
