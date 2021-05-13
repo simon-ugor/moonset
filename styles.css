@@ -52,6 +52,6 @@ body {
 
 @media (orientation: portrait) {
     .coming-soon-div {
-        margin-top: 42vh;
+        margin-top: 40vh;
     }
 }
