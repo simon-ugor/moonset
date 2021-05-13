@@ -46,4 +46,12 @@ body {
     to {
       transform: rotate(359deg);
     }
-  }
+}
+
+/* Media Queries */
+
+@media (orientation: portrait) {
+    .coming-soon-div {
+        margin-top: 42vh;
+    }
+}
