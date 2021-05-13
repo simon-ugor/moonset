@@ -56,6 +56,11 @@
 }
 
 @media (orientation: portrait) {
+
+    body {
+        overflow: hidden;
+    }
+
     .App {
         width: 100vw;
         height: 100vh;
