@@ -57,27 +57,13 @@
 
 @media (orientation: portrait) {
 
-    body {
-        overflow: hidden;
+    .background {
+        display: none;
     }
 
     .App {
-        width: 100vw;
-        height: 100vh;
-        overflow: hidden;
-    }
-
-    .background {
-        width: 100vw;
-        height: 100vh;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        background-color: aliceblue;
         background-image: url(./public/bg-mobile.png);
         background-position: center;
-        opacity: 0.2;
         background-repeat: repeat;
     }
 
