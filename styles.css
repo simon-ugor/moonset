@@ -31,3 +31,19 @@ body {
     font-family: light-font;
     font-size: 3vh;
 }
+
+.image-div {
+    margin-top: 3vh;
+    animation: rotation 3s infinite linear;
+}
+
+/* Keyframes */
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
