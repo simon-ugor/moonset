@@ -21,3 +21,13 @@ body {
     font-family: light-font;
     src: url(./fonts/regular.ttf);
 }
+
+/* Coming soon */
+
+.coming-soon-div {
+    width: 100vw;
+    margin-top: 47vh;
+    text-align: center;
+    font-family: light-font;
+    font-size: 3vh;
+}
